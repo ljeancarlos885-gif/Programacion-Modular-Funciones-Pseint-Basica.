@@ -17,7 +17,7 @@ Funcion mostrarResultado(suma)
 FinFuncion
 
 Algoritmo sumar_5_numeros
-	Definir n1, n2, n3, n4, n5, resultado como Entero
+	Definir n1, n2, n3, n4, n5, resultado como real
 	
     n1 <- pedirNumero(1)
     n2 <- pedirNumero(2)
@@ -28,4 +28,5 @@ Algoritmo sumar_5_numeros
     resultado <- sumarCinco(n1,n2,n3,n4,n5)
     mostrarResultado(resultado)	
 FinAlgoritmo
+
 
