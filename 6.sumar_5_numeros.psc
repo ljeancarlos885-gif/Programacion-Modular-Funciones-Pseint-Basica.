@@ -1,17 +1,19 @@
 
 Funcion ingresar <- pedirNumero(posicion)
-    Escribir "Ingresa el número ", posicion, ":"
+    definir ingresar como real
+    Escribir "Ingresa el nÃºmero ", posicion, ":"
     Leer ingresar
 FinFuncion
 
 
 Funcion sumar <- sumarCinco(a, b, c, d, e)
+    definir sumar como real
     sumar <- a + b + c + d + e
 FinFuncion
 
 
 Funcion mostrarResultado(suma)
-    Escribir "La suma total de los 5 números es: ", suma
+    Escribir "La suma total de los 5 nÃºmeros es: ", suma
 FinFuncion
 
 Algoritmo sumar_5_numeros
@@ -26,3 +28,4 @@ Algoritmo sumar_5_numeros
     resultado <- sumarCinco(n1,n2,n3,n4,n5)
     mostrarResultado(resultado)	
 FinAlgoritmo
+
