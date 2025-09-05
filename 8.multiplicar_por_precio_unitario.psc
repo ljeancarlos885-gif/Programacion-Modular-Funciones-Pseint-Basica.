@@ -13,12 +13,12 @@ Funcion iva <-  obtener_iva
 	Leer iva
 FinFuncion
 
-Funcion ive <- calcular_iva (a,b,c)
+Funcion ive <- calcular_iva(a,b,c)
 	ive <-  a * b * c
 FinFuncion
 
-Funcion resultado <- obtener_precio_final (a,b,c)
-	resultado <- (a * b) +  calcular_iva (a,b,c)
+Funcion resultado <- obtener_precio_final(a,b,c)
+	resultado <- (a * b) +  calcular_iva(a,b,c)
 FinFuncion
 
 Funcion mostrarresultado( res)
@@ -33,4 +33,5 @@ Algoritmo multiplicar_por_precio_unitario
 	
 	preciototal <- obtener_precio_final(precio,cantidad,iva)
 	mostrarresultado(preciototal)
+
 	FinAlgoritmo
