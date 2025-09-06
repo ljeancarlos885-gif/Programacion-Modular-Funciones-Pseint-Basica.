@@ -26,3 +26,4 @@ Algoritmo ganancias_neta
 	neta <-  calcular_ganancia_neta (desembolso,entrada)
 	ganancia_neta(neta)
 FinAlgoritmo
+
