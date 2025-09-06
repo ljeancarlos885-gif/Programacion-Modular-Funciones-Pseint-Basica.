@@ -1,10 +1,10 @@
 Funcion n1 <- Leer_numero1
-    Escribir "Ingrese el primer número: "
+    Escribir "Ingrese el primer nÃºmero: "
     Leer n1
 FinFuncion
 
 Funcion n2 <- Leer_numero2
-    Escribir "Ingrese el segundo número: "
+    Escribir "Ingrese el segundo nÃºmero: "
     Leer n2
 FinFuncion
 
@@ -55,4 +55,5 @@ Algoritmo opreaciones_matematicas
 	Mostrar_Resultado("resta",resta)
 	Mostrar_Resultado("multiplicacion",multi)
 	Mostrar_Resultado("division", divi)
+
 FinAlgoritmo
